@@ -1,0 +1,53 @@
+================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------
+       1      1     90      0       1 bazine::bazine@35-35@application/main.cpp
+       1      1     44      5       1 bazine::bazine@36-36@application/main.cpp
+       1      1      5      0       1 bazine::~bazine@37-37@application/main.cpp
+      16      2     70      1      17 bazine::operator ++@39-55@application/main.cpp
+      15      4     85      0      22 bazine::parodyk_lentas@56-77@application/main.cpp
+       4      1     10      0       4 bazine::nustatyti_geltona_spalva@78-81@application/main.cpp
+       4      1     10      0       4 bazine::nustatyti_raudona_spalva@82-85@application/main.cpp
+       4      1     10      0       4 bazine::nustatyti_zalia_spalva@86-89@application/main.cpp
+       4      1     10      0       4 bazine::nustatyti_melyna_spalva@90-93@application/main.cpp
+       4      1     10      0       4 bazine::grazinti_spalva@94-97@application/main.cpp
+      23      5    121      0      23 bazine::parodyk_sablona@98-120@application/main.cpp
+      23      5    121      0      23 bazine::rodyk@121-143@application/main.cpp
+      21      5    116      0      22 bazine::saudymas@144-165@application/main.cpp
+      81     23    677      0      85 bazine::kompo_saudymas@166-250@application/main.cpp
+       4      1      8      0       4 bazine::kompas_pataike_i@251-254@application/main.cpp
+       4      2     12      0       4 bazine::get_pataikei@255-258@application/main.cpp
+       4      2     12      0       4 bazine::get_kompas_pataikei@259-262@application/main.cpp
+       4      1      8      0       4 bazine::get_pataikytas_laivas@263-266@application/main.cpp
+     155     33   1034      0     155 kompiuteris::paskyrimas@272-426@application/main.cpp
+       4      1     19      0       4 kompiuteris::i_mane_pataike@427-430@application/main.cpp
+      72     35    434      0      74 zaidejas::ar_galima_taip_pastatyti@436-509@application/main.cpp
+      49     26    449      0      50 zaidejas::pastatymas@510-559@application/main.cpp
+       4      1      8      0       4 zaidejas::padidiname_indeksas@560-563@application/main.cpp
+      15     34    308      0      16 zaidejas::errorai@564-579@application/main.cpp
+      16      1    157      0      17 titulinis@582-598@application/main.cpp
+      49     31    489      6      50 pabaigos_patikra@599-648@application/main.cpp
+     108     30    871      2     118 zaidimas@649-766@application/main.cpp
+       7      1     22      0       7 main@767-773@application/main.cpp
+1 file analyzed.
+==============================================================
+NLOC    Avg.NLOC  AvgCCN  Avg.token  function_cnt    file
+--------------------------------------------------------------
+    736      24.9     9.0      186.1        28     application/main.cpp
+
+===========================================================================================================
+!!!! Warnings (cyclomatic_complexity > 15 or length > 1000 or nloc > 1000000 or parameter_count > 100) !!!!
+================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------
+      81     23    677      0      85 bazine::kompo_saudymas@166-250@application/main.cpp
+     155     33   1034      0     155 kompiuteris::paskyrimas@272-426@application/main.cpp
+      72     35    434      0      74 zaidejas::ar_galima_taip_pastatyti@436-509@application/main.cpp
+      49     26    449      0      50 zaidejas::pastatymas@510-559@application/main.cpp
+      15     34    308      0      16 zaidejas::errorai@564-579@application/main.cpp
+      49     31    489      6      50 pabaigos_patikra@599-648@application/main.cpp
+     108     30    871      2     118 zaidimas@649-766@application/main.cpp
+==========================================================================================
+Total nloc   Avg.NLOC  AvgCCN  Avg.token   Fun Cnt  Warning cnt   Fun Rt   nloc Rt
+------------------------------------------------------------------------------------------
+       736      24.9     9.0      186.1       28            7      0.25    0.76
